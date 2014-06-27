@@ -6,7 +6,6 @@ A tiny (< 1 kb) stylesheet for rendering text as keyboard keys. It scales with t
 ```html
 <p>
 After you have gained access to the missile control system, press 
-<span class="kb">Ctrl</span> + <span class="kb">Alt</span> + <span class="kb">Delete</span> 
-to override the safety controls.
+<kb>Ctrl</kb> + <span class="kb">Enter</span> to override the safety controls.
 </p>
 ```
