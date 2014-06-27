@@ -1,7 +1,7 @@
 kb.css
 ======
 
-A tiny (< 1 kb) stylesheet for rendering text as keyboard keys. It scales with text size and is compatible with modern browsers. Use it like 
+A tiny (< 1 kb) stylesheet for rendering text as keyboard keys. It scales with text size and is compatible with modern browsers. Use the `.kb` class on a `span` or cheat with `<kb></kb>`
 
 ```html
 <p>
