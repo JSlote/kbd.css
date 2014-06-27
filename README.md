@@ -13,3 +13,5 @@ After you have gained access to the missile control system, press
 results in:
 
 !["Example"](https://raw.githubusercontent.com/JSlote/kb.css/master/example.png "Example")
+
+Play with the example on JSbin: http://jsbin.com/zimacahe/3/edit
