@@ -1,11 +1,15 @@
 kb.css
 ======
 
-A tiny (< 1 kb) stylesheet for rendering text as keyboard keys. It scales with text size and is compatible with modern browsers. Use the `.kb` class on a `span` or cheat with `<kb></kb>`
+A small (< 2 kb) stylesheet for rendering text as keyboard keys. It scales with text size and is compatible with modern browsers. Use the `.kb` class on a `span` or cheat with `<kb></kb>`:
 
 ```html
 <p>
 After you have gained access to the missile control system, press 
-<kb>Ctrl</kb> + <span class="kb">Enter</span> to override the safety controls.
+<kb>Ctrl</kb> + <span class="kb">Backspace</span> to override the safety controls.
 </p>
 ```
+
+results in:
+
+!["Example"](https://raw.githubusercontent.com/JSlote/kb.css/master/example.png "Example")
