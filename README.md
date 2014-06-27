@@ -14,4 +14,4 @@ results in:
 
 !["Example"](https://raw.githubusercontent.com/JSlote/kb.css/master/example.png "Example")
 
-Play with the example on JSbin: http://jsbin.com/zimacahe/3/edit
+You need to specify a `z-index` for the parent element. Play with the example on JSbin: http://jsbin.com/zimacahe/3/edit
