@@ -1,0 +1,44 @@
+.kb{
+  display:inline-block;
+  background-color:white;
+  padding:.17em .6em .17em .4em;
+  position: relative;
+  top:-1px;
+  font-family: sans-serif;
+  font-size: .8em;
+  
+  color:#333;
+  
+  margin: 0 .2em;
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  
+  background: white;
+
+  background: -moz-radial-gradient(top, ellipse cover,  #ddd 0%, white 100%);
+  background: -webkit-gradient(radial, center top, 0px, center center, 100%, color-stop(0%,#ddd), color-stop(100%,white));
+  background: -webkit-radial-gradient(top, ellipse cover,  #ddd 0%,white 100%);
+  background: -o-radial-gradient(top, ellipse cover,  #ddd 0%,white 100%);
+  background: -ms-radial-gradient(top, ellipse cover,  #ddd 0%,white 100%);
+  background: radial-gradient(ellipse at top,  #ddd 0%,white 100%);
+}
+
+.kb::before{
+  content:'';
+  position:absolute;
+  left:-2px;
+  right:-2px;
+  top:1px;
+  bottom:-4px;
+  border:1px solid gray;;
+  
+  background-color:#ccc;
+  
+  z-index:-1;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
