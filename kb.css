@@ -1,4 +1,4 @@
-kb, .kb{
+kbd, .kbd{
 	display: inline-block;
 	background-color: white;
 	padding: .17em .6em .17em .4em;
@@ -26,7 +26,7 @@ kb, .kb{
 }
 
 /*white highlight*/
-kb::before, .kb::before{
+kbd::before, .kbd::before{
 	content:'';
 	position:absolute;
 	z-index:-1;
@@ -50,7 +50,7 @@ kb::before, .kb::before{
 }
 
 /*dark highlight*/
-kb::after, .kb::after{
+kbd::after, .kbd::after{
 	content:'';
 	position:absolute;
 	z-index:-2;
