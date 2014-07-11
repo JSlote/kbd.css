@@ -1,4 +1,4 @@
-kb.css
+kbd.css
 ======
 
 A small (< 2 kb) stylesheet for rendering text as keyboard keys. It scales with text size and is compatible with modern browsers. Use the `.kbd` class on a `span` or the `<kbd>` tag:
