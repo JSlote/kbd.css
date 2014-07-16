@@ -8,69 +8,48 @@ kbd, .kbd{
   color: #333;
   font: normal .8em/1  sans-serif;
   text-decoration: none;
-  -webkit-box-shadow: inset 0px -6px 4px -2px rgba(255, 255, 255, .5);
-  -moz-box-shadow:    inset 0px -6px 4px -2px rgba(255, 255, 255, .5);
-  box-shadow:         inset 0px -6px 4px -2px rgba(255, 255, 255, .5);
-  
+  box-shadow: inset 0 -.2em .12em -.15em rgba(255, 255, 255, .7);
   cursor:default;
- 
-  -webkit-border-radius: .3em;
-  -moz-border-radius: .3em;
   border-radius: .3em;
   
-  background: -moz-radial-gradient(top, ellipse cover,  #ddd 0%, white 100%);
-  background: -webkit-gradient(radial, center top, 0px, center center, 100%, color-stop(0%,#ddd), color-stop(100%,white));
-  background: -webkit-radial-gradient(top, ellipse cover,  #ddd 0%,white 100%);
-  background: -o-radial-gradient(top, ellipse cover,  #ddd 0%,white 100%);
   background: -ms-radial-gradient(top, ellipse cover,  #ddd 0%,white 100%);
   background: radial-gradient(ellipse at top right,  #ddd 0%,white 100%);
 }
 
-/*white highlight*/
-kbd::before, .kbd::before{
+kbd::before, .kbd::before, kbd::after, .kbd::after{
   content:'';
   position:absolute;
-  z-index:-1;
   left:-.17em;
   right:-.17em;
   top:.1em;
   bottom:-.4em;
-  
-  border:1px solid gray;
+  border-radius: .4em;
+}
 
-  background: rgb(168,168,168);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%, rgba(234,234,234,1) 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(168,168,168,1)), color-stop(100%,rgba(234,234,234,1)));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%,rgba(234,234,234,1) 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%,rgba(234,234,234,1) 100%);
+/*white highlight*/
+kbd::before, .kbd::before{
+  z-index:-1;
+
+  border:1px solid gray;
+  background: #a8a8a8;
   background: -ms-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%,rgba(234,234,234,1) 100%);
   background: radial-gradient(circle 3em at -1.7em 0, white 0%, white 70% ,rgba(255,255,255,0) 80%);
-    
-  -webkit-border-radius: .4em;
-  -moz-border-radius: .4em;
-  border-radius: .4em;
 }
 
 kbd::after, .kbd::after{
-  content:'';
-  position:absolute;
   z-index:-2;
-  left:-.17em;
-  right:-.17em;
-  top:.1em;
-  bottom:-.4em;
-  
-  background-color:#ccc;
 
-  background: rgb(168,168,168);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%, rgba(234,234,234,1) 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(168,168,168,1)), color-stop(100%,rgba(234,234,234,1)));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%,rgba(234,234,234,1) 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%,rgba(234,234,234,1) 100%);
+  background: #a8a8a8;
   background: -ms-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%,rgba(234,234,234,1) 100%);
   background: radial-gradient(ellipse 1em 1.7em at top right, #aaa 0%, #aaa 70%, #ccc 100%);
-  
-  -webkit-border-radius: .4em;
-  -moz-border-radius: .4em;
-  border-radius: .4em;
 }
+ 
+.kbd-down{
+  top: 0em;
+  box-shadow: inset 0 -.2em .3em -.1em rgba(200, 200, 200, .5);
+}
+.kbd-down::before, .kbd-down::after{
+  top:-.1em;
+  bottom: -.2em;   
+}
+.kbd-down::before{ box-shadow: inset 0px 1px 6px 0px rgba(0,0,0,1); }
