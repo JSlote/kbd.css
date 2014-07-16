@@ -32,7 +32,6 @@ kbd::before, .kbd::before{
 
   border:1px solid gray;
   background: #a8a8a8;
-  background: -ms-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%,rgba(234,234,234,1) 100%);
   background: radial-gradient(circle 3em at -1.7em 0, white 0%, white 70% ,rgba(255,255,255,0) 80%);
 }
 
@@ -40,7 +39,6 @@ kbd::after, .kbd::after{
   z-index:-2;
 
   background: #a8a8a8;
-  background: -ms-radial-gradient(center, ellipse cover, rgba(168,168,168,1) 0%,rgba(234,234,234,1) 100%);
   background: radial-gradient(ellipse 1em 1.7em at top right, #aaa 0%, #aaa 70%, #ccc 100%);
 }
  
